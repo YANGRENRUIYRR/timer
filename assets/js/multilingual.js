@@ -1,4 +1,4 @@
-let nowlang='en';
+let nowlang='zh';
 
 var langText=
 {
