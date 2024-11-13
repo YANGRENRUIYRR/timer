@@ -4,19 +4,17 @@ var langText=
 {
     'en':
     {
-        '倒计时': 'Countdown Timer',
-        '未开始计时': 'Not Started',
-        '分钟（默认 5）': 'Minutes (Default 5)',
-        '秒（默认 0）': 'Seconds (Default 0)',
-        '毫秒（默认 0）': 'Milliseconds (Default 0)',
-        '有 bug？使用暂无发现 bug 的': 'Got a bug? Use a version with no bugs found yet: ',
-        '旧版': 'Click here',
-        '开始计时': 'Start Timing',
-        '重置计时器': 'Reset Timer',
-        '停止计时': 'Stop Timing',
-        '保存': 'Save',
-        '正在计时': 'Now Timing',
-        '超时': 'Time Out'
+        '倒计时': '倒计时',
+        '未开始计时': '未开始计时',
+        '分钟（默认 5）': '分钟（默认 5）',
+        '秒（默认 0）': '秒（默认 0）',
+        '毫秒（默认 0）': '毫秒（默认 0）',
+        '开始计时': '开始计时',
+        '重置计时器': '重置计时器',
+        '停止计时': '停止计时',
+        '保存': '保存',
+        '正在计时': '正在计时',
+        '超时': '超时'
     },
     'zh':
     {
