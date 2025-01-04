@@ -241,3 +241,4 @@ function stop()
     document.getElementById('renewButton').disabled=false;
 }
 document.getElementById('stopButton').disabled=true;
+alert("这是电脑版计时器，请用电脑全屏使用此网站，否则可能会出现格式错乱问题。如页面过小，请自行放大。");
