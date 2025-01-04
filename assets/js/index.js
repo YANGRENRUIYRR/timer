@@ -173,6 +173,7 @@ function updateTimerDisplay()
         if(document.getElementById('timer').style.color!=='#e74c3c'&&document.getElementById('timer').style.color!=='rgb(231, 76, 60)')
         {
             console.log(document.getElementById('timer').style.color);
+            alert("超时");
             document.getElementById('timer').style.color='#e74c3c';
             document.getElementById('status').innerText='超时';
             document.getElementById('status').style.color='#e74c3c';
