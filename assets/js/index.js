@@ -188,7 +188,6 @@ function updateTimerDisplay()
     const remainingMinutes=Math.floor(remainingMilliseconds/(60*1000));
     const remainingSeconds=Math.floor((remainingMilliseconds%(60*1000))/1000);
     const remainingMillisecondsToShow=remainingMilliseconds%1000;
-    console.log(remainingMinutes);
     document.getElementById('timer').innerText=getTwo(remainingMinutes)+':'+getTwo(remainingSeconds)+'.'+remainingMillisecondsToShow.toString().padStart(3,'0');
     return [remainingMinutes,remainingSeconds,remainingMillisecondsToShow];
 }
