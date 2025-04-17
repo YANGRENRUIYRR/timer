@@ -8,6 +8,8 @@
     <meta name="keywords" content="timer, time, count, countdown, html, js, css, user-friendly">
     <link rel="stylesheet" href="./assets/css/buttons.css">
     <link rel="stylesheet" href="./assets/css/index.css">
+    <link rel="stylesheet" href="./assets/css/sweetalert.css">
+    <script src="./assets/js/sweeralert.min.js"></script>
     <title>倒计时</title>
 </head>
 
@@ -33,6 +35,12 @@
     <script src="./assets/js/multilingual.js"></script>
     <script src="./assets/js/index.js"></script>
     <script src="./assets/js/input_validate.js"></script>
-    
+    <script>
+        Swal.fire({
+            title: '加载成功',
+            text: '这是电脑版计时器，请用电全屏使用此网站，否则可能会出现格式错乱问题。如页面过小，请自行放大。',
+            icon: 'success'
+        });
+    </script>
 </body>
 </html>
